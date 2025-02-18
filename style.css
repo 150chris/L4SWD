@@ -1,0 +1,25 @@
+/* Hero Section */
+.hero-section {
+    height: 80vh;
+    background: url('restaurant-bg.jpg') center/cover no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.animated-text {
+    font-size: 3rem;
+    font-weight: bold;
+    animation: fadeIn 2s ease-in-out;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; transform: translateY(-20px); }
+    100% { opacity: 1; transform: translateY(0); }
+}
+
+/* Footer Icons */
+footer a {
+    margin: 0 10px;
+    font-size: 20px;
+}
